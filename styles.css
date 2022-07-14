@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    background-color: #E5E5E5;
+    color: white;
+    margin: 0;
+    position: relative;
+}
+
+.modal-wrapper {
+    position: absolute;
+    left: 350px;
+}
+
+.modal-window {
+    width: 593px;
+    padding: 60px 88px;
+    border-radius: 35px;
+    margin: 80px auto;
+    background-color: black;
+    position: relative;
+    z-index: 0;
+    display: none;
+}
+
+.modal-window.active {
+    display: block;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.complited-image {
+    width: 69px;
+    height: 69px;
+    border-radius: 20px;
+    background: url(img/complited.png);
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.content-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-close-modal {
+    display: block;
+    width: 165px;
+    height: 62px;
+    background: linear-gradient(95.67deg, #00F0FF 18.12%, #00CFDC 110.44%);
+    box-shadow: -2px 4px 14px rgba(13, 222, 235, 0.38);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn-close-modal:hover {
+    background: #00CAD7;
+}
+
+.btn-close-modal:active {
+    background: #00B3BE;
+}
+
+.ellipse-1 {
+    width: 516px;
+    height: 474px;
+    border-radius: 35px;
+    position: absolute;
+    top: 49px;
+    left: 77px;
+    z-index: 1;
+}
+
+.ellipse-2 {
+    width: 516px;
+    height: 474px;
+    border-radius: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-open-modal {
+    width: 248px;
+    height: 62px;
+    background: linear-gradient(95.67deg, #00F0FF 18.12%, #00CFDC 110.44%);
+    box-shadow: -2px 4px 14px rgba(13, 222, 235, 0.38);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: inherit;
+    position: absolute;
+    z-index: -2;
+    top: 280px;
+    left: 520px;
+}
+
+.btn-open-modal:hover {
+    background: #00CAD7;
+}
+
+.btn-open-modal:active {
+    background: #00B3BE;
+}
